@@ -1,0 +1,94 @@
+/*
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* Tiles */
+
+	.tiles:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.tiles article {
+		float: left;
+	}
+
+		.tiles article > a {
+			padding-top: 50%;
+			margin-top: -1.75em;
+		}
+
+		body:not(.is-touch) .tiles article:hover > .image {
+			-moz-transform: none;
+			-webkit-transform: none;
+			-ms-transform: none;
+			transform: none;
+		}
+
+/* Footer */
+
+	#footer > .inner section {
+		float: left;
+	}
+
+	#footer > .inner .copyright {
+		clear: both;
+		padding-top: 4em;
+	}
+
+/* Empty Tiles */
+
+.emptyTile {
+    height: 1.9em;
+}
+
+.emptyContainer {
+    height: 100%; 
+    width: 100%; 
+    border-radius: 4px; 
+    border-bottom: 0; 
+}
+
+.emptyLabel {
+    display: flex; 
+    justify-content: center; 
+    padding: 0.2em; 
+    color: var(--tile); 
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 0;
+}
+
+    .emptyLabel > h2 {
+        margin: 0;
+    }   
+
+    .emptyLabel:hover {
+        color: var(--tile) !important;
+    }
+
+body:not(.is-touch) .tiles .emptyTile:hover > .emptyContainer {
+    background-color: #333333;
+    opacity: 0.35;
+    transform: scale(1.1);
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+/* Events */
+
+.hidden {
+    display: none;
+}
+
+/* Legal */
+
+#legal > p {
+    text-align: justify;
+}
+

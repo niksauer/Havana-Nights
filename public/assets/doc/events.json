@@ -1,0 +1,30 @@
+{
+  "updated": "2016-10-30",
+  "thead": [
+    "Wann?",
+    "Was?",
+    "Wo?",
+    "Wer?"
+  ],
+  "events": [
+    [
+      [
+        "2016-10-30",
+        "12:00:00",
+        "15:00:00"
+      ],
+        "Hochzeitsmesse",
+        "Congress Park Hanau",
+        "-"
+    ],
+    [
+      [
+        "2016-12-03",
+        "22:00:00"
+      ],
+        "Premierenball",
+        "Congress Park Hanau",
+        "-"
+    ]
+  ]
+}
